@@ -1,0 +1,84 @@
+
+body {
+    background-color:silver ;
+}
+
+header {
+    background-color:#db6400 ;
+    color: #16697a;
+    border: #16697a solid 2px;
+    height:100px;
+}
+
+ul {
+    float: right;
+}
+
+h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+
+header nav {
+    margin-top: 1%;
+}
+
+header nav ul li {
+    display: inline-block ;
+    margin-right: 40px;
+    padding-inline: 40px;
+}
+
+header nav ul li a {
+text-decoration: none;
+font-size: 20px;
+font-weight: 700;
+color: #16697a;
+}
+
+#first {
+    background-color: #16697a ;
+    border: #db6400 solid 3px;
+    margin: 40px 20px 40px 20px ;
+    height: 100px;
+    color:#db6400 ;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 100px;
+}
+
+section {
+    background-color:#db6400  ;
+    border:#16697a solid 2px ;
+}
+
+main section div {
+    display: inline-block;
+    margin-left: 200px;
+    
+}
+
+main section div img {
+    height: 300px;
+    width: 450px;
+}
+
+main section div p {
+    text-align: center;
+    color:#16697a ;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+footer {
+    background-color:#16697a ;
+    margin:0% ;
+    color:#db6400 ;
+    font-weight:600;
+}
+
+footer p {
+    text-align: center;
+}
