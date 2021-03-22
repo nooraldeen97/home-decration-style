@@ -9,30 +9,29 @@
 // //console.log(house)
 // document.write(house)
 
+var cation =prompt("send us your location (if you are in amman just write amman)");
+function address(place) {
+  if (place == "amman") {
+    alert("the delivery for free")
+  } else {
+    alert("we ganna charge you 10$")
+  }
+
+}
+ address(cation);
 
 
-// if(house==1){alert("we can help you also decorate your backyard")
-// }else{
-//     alert("your appartment will be nice by working with us")
-// }
-// if (confirm('Are you sure you want tthese service?')) {
-    
-//     alert("we have an honor to work with us")
-//   } else {
-//       alert("we hope you to choose on of our service")
-//   }
+var need = prompt("what kind of service do you need? build/maintainance");
+while (need != "Maintainance" && need != "Build") {
+  alert("please write 'Build' for building service and 'Maintainance' for maintainance service.")
+  need = prompt("what kind of service do you need? ")
+}
 
 
-
-//   var need = prompt("what kind of service do you need? build/maintainance");
-//   while(need !="Maintainance" && need != "Build")
-//   {
-//       alert("please write 'Build' fot building service and 'Maintainance' for maintainance service.")
-//       need = prompt("what kind of service do you need? ")
-//   }
-
-
-
+function printneed(need) {
+  document.write("we are here to help you to" + need)
+}
+printneed(need);
 //   var nomberOfAppartment = prompt("how many appartment do you want to build");
 
 //   var appartment ='';
@@ -48,3 +47,14 @@
 //     result+=appartment;
 // }
 // document.write(result);
+
+// if(house==1){alert("we can help you also decorate your backyard")
+// }else{
+//     alert("your appartment will be nice by working with us")
+// }
+// if (confirm('Are you sure you want tthese service?')) {
+
+//     alert("we have an honor to work with us")
+//   } else {
+//       alert("we hope you to choose on of our service")
+//   }
